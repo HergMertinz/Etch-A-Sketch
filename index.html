@@ -2,12 +2,18 @@
 <style>
 #container {
     width: 960px;
+    height: 960px;
     display: grid;
+    margin: auto;
+    box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.2);
 
 }
 .pixel {
     background-color: aquamarine;
 
+}
+.button {
+    margin-left: 500px;
 }
 </style>
 
@@ -16,7 +22,9 @@
     <head>
         <title>Etch A Sketch Project</title>
     </head>
+    
     <body>
+        <button class="button" id="sizeBtn">Size</button>
         <div id="container"></div>
     </body>
 
